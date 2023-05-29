@@ -1,0 +1,5 @@
+rootProject.name='ArtInstituteOfChicagoApp'
+include ':app'
+include ':abstractions'
+include ':api'
+include ':database'

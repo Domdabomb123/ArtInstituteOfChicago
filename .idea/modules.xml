@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArtInstituteOfChicagoApp.iml" filepath="$PROJECT_DIR$/.idea/modules/ArtInstituteOfChicagoApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstractions/ArtInstituteOfChicagoApp.abstractions.iml" filepath="$PROJECT_DIR$/.idea/modules/abstractions/ArtInstituteOfChicagoApp.abstractions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstractions/ArtInstituteOfChicagoApp.abstractions.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/abstractions/ArtInstituteOfChicagoApp.abstractions.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstractions/ArtInstituteOfChicagoApp.abstractions.main.iml" filepath="$PROJECT_DIR$/.idea/modules/abstractions/ArtInstituteOfChicagoApp.abstractions.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstractions/ArtInstituteOfChicagoApp.abstractions.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/abstractions/ArtInstituteOfChicagoApp.abstractions.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/ArtInstituteOfChicagoApp.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/ArtInstituteOfChicagoApp.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/ArtInstituteOfChicagoApp.api.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/api/ArtInstituteOfChicagoApp.api.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/ArtInstituteOfChicagoApp.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/ArtInstituteOfChicagoApp.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/ArtInstituteOfChicagoApp.api.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/api/ArtInstituteOfChicagoApp.api.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArtInstituteOfChicagoApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArtInstituteOfChicagoApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArtInstituteOfChicagoApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArtInstituteOfChicagoApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArtInstituteOfChicagoApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArtInstituteOfChicagoApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArtInstituteOfChicagoApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArtInstituteOfChicagoApp.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database/ArtInstituteOfChicagoApp.database.iml" filepath="$PROJECT_DIR$/.idea/modules/database/ArtInstituteOfChicagoApp.database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database/ArtInstituteOfChicagoApp.database.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/database/ArtInstituteOfChicagoApp.database.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database/ArtInstituteOfChicagoApp.database.main.iml" filepath="$PROJECT_DIR$/.idea/modules/database/ArtInstituteOfChicagoApp.database.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database/ArtInstituteOfChicagoApp.database.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/database/ArtInstituteOfChicagoApp.database.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.paging:paging-compose:1.0.0-alpha19@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b32e60251d54a061ed2c6e555029cfb5/transformed/jetified-paging-compose-1.0.0-alpha19/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b32e60251d54a061ed2c6e555029cfb5/transformed/jetified-paging-compose-1.0.0-alpha19/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b32e60251d54a061ed2c6e555029cfb5/transformed/jetified-paging-compose-1.0.0-alpha19/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.paging/paging-compose/1.0.0-alpha19/17d588c21f573730dac8810d8b916a5bacc052ca/paging-compose-1.0.0-alpha19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
