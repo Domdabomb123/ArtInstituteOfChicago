@@ -14,17 +14,22 @@ import javax.inject.Inject
 @HiltViewModel
 class MainViewModel @Inject constructor(private val repository: Repository) : ViewModel() {
 
-    var artworksResponse: List<ArtworkData> by mutableStateOf(listOf())
+    var artworksResponse: List<ArtworkData>? by mutableStateOf(listOf())
     var myCollection: List<Artwork> by mutableStateOf(listOf())
     var page: Int by mutableStateOf(1)
 
-    fun getCharacterList() {
+    init {
+        getCharacterList()
+    }
+    private fun getCharacterList() {
+        artworksResponse = null
         viewModelScope.launch {
             artworksResponse = repository.getFromApiArtwork(page)
         }
     }
 
     fun onNextClicked() {
+        artworksResponse = null
         page++
         viewModelScope.launch {
             artworksResponse = repository.getFromApiArtwork(page)
@@ -32,6 +37,7 @@ class MainViewModel @Inject constructor(private val repository: Repository) : Vi
     }
 
     fun onPreviousClicked() {
+        artworksResponse = null
         page--
         viewModelScope.launch {
             artworksResponse = repository.getFromApiArtwork(page)

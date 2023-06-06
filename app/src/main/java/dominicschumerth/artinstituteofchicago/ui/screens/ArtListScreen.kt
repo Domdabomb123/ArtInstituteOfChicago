@@ -4,6 +4,7 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -18,6 +19,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Divider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -49,13 +51,12 @@ fun ArtListScreen(
             onMyCollectionClicked,
             onArtDetailClicked
         )
-        mainViewModel.getCharacterList()
     }
 }
 
 @Composable
 fun ArtList(
-    artworks: List<ArtworkData>,
+    artworks: List<ArtworkData>?,
     viewModel: MainViewModel,
     onMyCollectionClicked: () -> Unit,
     onArtDetailClicked: (ArtworkData) -> Unit
@@ -63,11 +64,20 @@ fun ArtList(
     Column(
         modifier = Modifier.fillMaxHeight()
     ) {
-        LazyColumn(Modifier.weight(1f)) {
-            itemsIndexed(items = artworks) { _, item ->
-                ArtItem(artwork = item) { art ->
-                    onArtDetailClicked(art)
+        artworks?.let {
+            LazyColumn(Modifier.weight(1f)) {
+                itemsIndexed(items = artworks) { _, item ->
+                    ArtItem(artwork = item) { art ->
+                        onArtDetailClicked(art)
+                    }
                 }
+            }
+        } ?: run {
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier.fillMaxWidth().weight(1f)
+            ) {
+                CircularProgressIndicator()
             }
         }
         Row(
